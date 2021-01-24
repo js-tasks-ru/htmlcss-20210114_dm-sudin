@@ -1,0 +1,109 @@
+.histogram {
+    width: 354px;
+    height: 185px;
+    background-color: #FFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 19px 24px 24px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.histogram__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content__col{    
+    flex-grow: 1;
+    border-right: 1px solid white;
+    background-color: #4263EB;
+}
+
+.total__title {
+    color: #4D5054;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.total__value {
+    color: #212429;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.histogram__link a {
+    color: #4263EB;
+}
+
+.content__col:last-child{ border-right: none; } 
+
+.histogram__content-col1 { height: 50px;}
+
+.histogram__content-col2 { height: 35px;}
+
+.histogram__content-col3 { height: 22px;}
+
+.histogram__content-col4 { height: 39px;}
+
+.histogram__content-col5 { height: 22px;}
+
+.histogram__content-col6 { height: 30px;}
+
+.histogram__content-col7 { height: 39px;}
+
+.histogram__content-col8 { height: 50px;}
+
+.histogram__content-col9 { height: 11px;}
+
+.histogram__content-col10 { height: 22px;}
+
+.histogram__content-col11 { height: 30px;}
+
+.histogram__content-col12 { height: 35px;}
+
+.histogram__content-col13 { height: 11px;}
+
+.histogram__content-col14 { height: 50px;}
+
+.histogram__content-col15 { height: 11px;}
+
+.histogram__content-col16 { height: 39px;}
+
+.histogram__content-col17 { height: 30px;}
+
+.histogram__content-col18 { height: 22px;}
+
+.histogram__content-col19 { height: 35px;}
+
+.histogram__content-col20 { height: 30px;}
+
+.histogram__content-col21 { height: 11px;}
+
+.histogram__content-col22 { height: 39px;}
+
+.histogram__content-col23 { height: 35px;}
+
+.histogram__content-col24 { height: 45px;}
+
+.histogram__content-col25 { height: 30px;}
+
+.histogram__content-col26 { height: 11px;}
+
+.histogram__content-col27 { height: 30px;}
+
+.histogram__content-col28 { height: 11px;}
+
+.histogram__content-col29 { height: 35px;}
+
+.histogram__content-col30 { height: 17px;}
