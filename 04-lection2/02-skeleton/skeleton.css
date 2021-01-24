@@ -1,0 +1,65 @@
+.skeleton {
+    background-color: #FFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;    
+    width: 579px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 192px;
+}
+
+.skeleton__head {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon-container {
+    margin-right: 16px;
+}
+
+.head__icon {
+    background: #DDE2E5;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+
+
+.skeleton__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.description {
+    height: 25%;
+}
+
+.description__line1, .description__line2 {
+    height: 41%;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.head__post-info {
+
+}
+.post-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post-info__name {
+    width: 172px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.post-info__details {
+    width: 257px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
