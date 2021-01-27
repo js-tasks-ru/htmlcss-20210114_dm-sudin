@@ -35,6 +35,6 @@
 }
 
 .accordeon-item__text{
+    padding-top: 16px;
     width: 650px;
-    padding-left: 30px;
 }
