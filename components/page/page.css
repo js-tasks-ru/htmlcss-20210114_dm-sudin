@@ -7,27 +7,6 @@
     margin:auto;
 }
 
-.page__header {
-    background: #f9fafc;
-    padding-top: 25px; 
-    height: 200px;   
-}
-
-.page__footer {
-height: 130px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-text-transform: uppercase;
-color: #5eb2fc;
-background-color: #F9FAFC;
-text-align: center;
-position: relative;
-bottom: 10px;
-}
-
-.page__content {
-    
+.page__delimiter {
+    background: #DDE2E5;
 }
