@@ -7,7 +7,7 @@
     border:none;
     width: 189px;
     height: 48px;
-    color: #FFF;
+    color: var(--white);
 }
 
 .button:hover {
@@ -20,36 +20,36 @@
 }
 
 .button_primary {    
-    background: #4263EB;    
+    background: var(--accent);    
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_primary:hover {
-    background: #2342C0;
+    background: var(--primary-hover-bg);
 }
 
 .button_secondary {
-    background: #7048E8;
+    background: var(--secondary-active-bg);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;    
 }
 
 .button_secondary:hover {
-    background: #5028C6;
+    background: var(--secondary-hover-bg);
 }
 
 .button_alternate {
-    background: #FFF;
+    background:var(--white);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    border: 1px solid #ACB5BD;
-    color: #495057;
+    border: var(--border-main);
+    color: var(--text-color-1);
 }
 
 .button_alternate:hover {
-    border: 1px solid #212429;
+    border: var(--border-secondary);
 }
 
 .button_alternate:disabled {
-    border: 1px solid #ACB5BD;
-    color: #495057;    
+    border: var(--border-main);
+    color: var(--text-color-1);
     opacity: 0.5;
 }

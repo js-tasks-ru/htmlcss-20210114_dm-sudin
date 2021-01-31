@@ -1,6 +1,6 @@
 .skeleton {
-    background-color: #FFF;
-    border: 1px solid #ACB5BD;
+    background-color: var(--bg-main);
+    border: var(--border-main);
     border-radius: 8px;
     padding: 24px;
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .skeleton__icon {
-    background: #DDE2E5;
+    background: var(--bg-secondary);
     width: 64px;
     height: 64px;
     border-radius: 50%;
@@ -35,7 +35,7 @@
 
 .description__line1, .description__line2 {
     height: 41%;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    background: var(--gradient-1);
 }
 
 .skeleton__post-info {
@@ -47,11 +47,11 @@
 .skeleon__info-name {
     width: 172px;
     height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    background: var(--gradient-1);
 }
 
 .skeleton__info-details {
     width: 257px;
     height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    background: var(--gradient-1);
 }

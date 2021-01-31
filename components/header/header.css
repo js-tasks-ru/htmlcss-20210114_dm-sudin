@@ -1,5 +1,5 @@
 .header {
-    background: #f9fafc;
+    background: var(--bg-third);
     padding-top: 25px; 
     height: 200px;
     padding-left: 160px;
@@ -8,6 +8,6 @@
 .header__title {
     font-size: 50px;
     line-height: 64px;
-    color: #212429;
+    color: var(--black);
     font-weight: 500;
 }

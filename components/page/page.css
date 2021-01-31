@@ -8,5 +8,5 @@
 }
 
 .page__delimiter {
-    background: #DDE2E5;
+    background: var(--bg-secondary);
 }

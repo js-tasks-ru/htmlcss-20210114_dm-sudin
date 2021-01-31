@@ -2,7 +2,7 @@
     padding-top: 68px;
     padding-bottom: 64px;
     /* height: 1036px; */
-    background: #F9FAFC;    
+    background:var(--bg-third);
 }
 
 .preview__container {
@@ -16,7 +16,7 @@
     flex-grow: 0;
     flex-shrink: 1;
     height: 367px;
-    background: #FFFFFF;
+    background: var(--bg-main);
     /* Card Shadow */
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
@@ -34,7 +34,7 @@
     line-height: 25px;
     font-weight: 500;
     text-align: center;
-    color: #212429;
+    color: var(--black);
 }
 
 .preview__card-content {
