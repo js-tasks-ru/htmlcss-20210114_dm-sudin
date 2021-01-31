@@ -2,13 +2,13 @@
     --white: #FFFFFF;
     --black: #212429;
     --text-color-1: #495057;
-    --bg-main: var(var(--white));
+    --bg-main: var(--white);
     --bg-secondary: #DDE2E5;
     --bg-third: #F9FAFC;
     --accent: #4263EB;
     --accent-text-1: var(--white);
     --primary-active-bg: var(--accent);
-    --primary-active-text: var(var(--white));
+    --primary-active-text: var(--white);
     --primary-hover-bg: #2342C0;
     --secondary-active-bg: #7048E8;
     --secondary-hover-bg: #5028C6;
