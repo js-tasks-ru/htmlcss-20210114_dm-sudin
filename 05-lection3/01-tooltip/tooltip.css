@@ -44,7 +44,7 @@ body {
  }
 
  .dropdown__text {
-     color: var(--text-color-2);
+     color: var(--text-secondary-color);
      text-align: center;
  }
 

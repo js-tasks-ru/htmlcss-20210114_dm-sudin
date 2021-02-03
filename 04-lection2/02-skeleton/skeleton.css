@@ -13,11 +13,8 @@
     justify-content: flex-start;
 }
 
-.skeleton__icon-wrapper {
-    margin-right: 16px;
-}
-
 .skeleton__icon {
+    margin-right:16px;
     background: var(--bg-secondary);
     width: 64px;
     height: 64px;
@@ -33,7 +30,7 @@
     height: 25%;   
 }
 
-.description__line1, .description__line2 {
+.skeleton__description-line1, .skeleton__description-line2 {
     height: 41%;
     background: var(--gradient-1);
 }

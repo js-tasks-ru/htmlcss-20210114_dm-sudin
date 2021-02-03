@@ -42,15 +42,15 @@
 }
 
 .histogram__total-title {
-    color: var(--black);
+    color: var(--text-bold-color);
     opacity: 0.8;
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .histogram__total-value {
-    color: var(--black);
+    color: var(--text-bold-color);
     font-size: 20px;
     line-height: 26px;
 }

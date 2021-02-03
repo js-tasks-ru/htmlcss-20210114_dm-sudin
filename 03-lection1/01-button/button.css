@@ -41,7 +41,7 @@
     background:var(--white);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     border: var(--border-main);
-    color: var(--text-color-1);
+    color: var(--text-main-color);
 }
 
 .button_alternate:hover {
@@ -50,6 +50,6 @@
 
 .button_alternate:disabled {
     border: var(--border-main);
-    color: var(--text-color-1);
+    color: var(--text-main-color);
     opacity: 0.5;
 }

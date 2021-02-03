@@ -1,8 +1,11 @@
+@import '../fonts/fonts.css';
+
 :root {
     --white: #FFFFFF;
     --black: #212429;
-    --text-color-1: #495057;
-    --text-color-2: #DDE2E5;
+    --text-bold-color: var(--black);
+    --text-main-color: #495057;
+    --text-secondary-color: #DDE2E5;
     --bg-main: var(--white);
     --bg-secondary: #DDE2E5;
     --bg-third: #F9FAFC;
@@ -18,8 +21,6 @@
     --gradient-1: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     
 }
-
-@import '../fonts/fonts.css';
 
 * {
     font-family: 'Roboto', sans-serif;
