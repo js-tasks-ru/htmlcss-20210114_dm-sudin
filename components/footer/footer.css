@@ -1,0 +1,28 @@
+.footer {
+    height: 130px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    background-color:var(--bg-third);
+    text-align: center;
+    position: relative;
+    bottom: 11px;
+    padding-left: 417px;
+    padding-right: 383px;
+    }
+
+.footer__title {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--black);
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
