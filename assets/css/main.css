@@ -6,10 +6,20 @@
     --text-bold-color: var(--black);
     --text-main-color: #495057;
     --text-secondary-color: #DDE2E5;
+
+    /* цвет заголовка чисел в календаре выбивается из общего шаблона, больше нигде в проекте не нашел вхождений этого цвета, поэтому задал пока так. или есть способ, как лучше сделать?) */
+    --text-calendar-main: #334D6E;
+
+
     --bg-main: var(--white);
     --bg-secondary: #DDE2E5;
     --bg-third: #F9FAFC;
     --bg-black-half-opacity:rgba(0, 0, 0, 0.5);
+
+    /* здесь аналогично, не нашёл больше вхождений этого цвета */
+    --bg-item-calendar: #a0b1f533;
+
+
     --accent: #4263EB;
     --accent-text-1: var(--white);
     --primary-active-bg: var(--accent);
