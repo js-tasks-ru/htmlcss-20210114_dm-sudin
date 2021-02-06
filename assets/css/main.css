@@ -6,6 +6,8 @@
     --text-bold-color: var(--black);
     --text-main-color: #495057;
     --text-secondary-color: #DDE2E5;
+    --text-notification: #D84910;
+    --text-third-color: #ACB5BD;
 
     /* цвет заголовка чисел в календаре выбивается из общего шаблона, больше нигде в проекте не нашел вхождений этого цвета, поэтому задал пока так. или есть способ, как лучше сделать?) */
     --text-calendar-main: #334D6E;
@@ -39,4 +41,10 @@
 
 p {
     margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
 }
