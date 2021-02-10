@@ -46,7 +46,6 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
-    background-image: url("../../assets/images/cross.svg");
-    background-repeat: no-repeat;
     cursor: pointer;
+    color: var(--text-main-color);
 }

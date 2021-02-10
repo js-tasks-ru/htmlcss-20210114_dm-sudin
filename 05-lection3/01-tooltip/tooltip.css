@@ -15,9 +15,9 @@ body {
 }
 
 .dropdown__anchor {
+    color: var(--black);
     width: 24px;
     height: 24px;
-    border-radius: 50%;
 }
 
 .dropdown__menu {

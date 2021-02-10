@@ -8,6 +8,11 @@
         <title>Modal</title>
     </head>
     <body>
+        <svg style="display: none;">
+            <defs>
+                <symbol id="cross" width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.707 5.293a1 1 0 010 1.414l-12 12a1 1 0 01-1.414-1.414l12-12a1 1 0 011.414 0z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M5.293 5.293a1 1 0 011.414 0l12 12a1 1 0 01-1.414 1.414l-12-12a1 1 0 010-1.414z" fill="currentColor"/></symbol>
+            </defs>
+        </svg>
         
         <button id="modal-open" class="button button_primary">
             Open modal
@@ -22,6 +27,9 @@
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
             <div id="modal-close">
+                <svg>
+                    <use xlink:href="#cross"></use>
+                </svg>
             </div>
             
         </div>
