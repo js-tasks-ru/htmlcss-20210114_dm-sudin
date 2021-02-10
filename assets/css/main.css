@@ -33,6 +33,11 @@
     --border-secondary: 1px solid var(--black);
     --gradient-1: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     
+
+    /* данные переменные у меня почему-то не работают в медиа-запросах */
+    --desktop-width: 1024px;
+    --tablet-width: 786px;
+    --touch-width: 468px;
 }
 
 * {
@@ -48,3 +53,5 @@ ul {
     margin:0;
     padding: 0;
 }
+
+--desktop-width: 1024px;

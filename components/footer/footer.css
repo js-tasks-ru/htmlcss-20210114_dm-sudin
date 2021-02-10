@@ -9,8 +9,14 @@
     text-align: center;
     position: relative;
     bottom: 11px;
-    padding-left: 417px;
-    padding-right: 383px;
+    width: 640px;
+    margin: 0 auto;
+    }
+
+    @media all and (max-width: 768px) {
+        .footer {
+            display: none;
+        }
     }
 
 .footer__title {
