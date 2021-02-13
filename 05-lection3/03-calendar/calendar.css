@@ -74,7 +74,7 @@
     background: var(--accent);
 }
 
-.calendar__item_beetwin {
+.calendar__item_between {
     background: var(--bg-item-calendar);
 }
 
@@ -88,8 +88,4 @@
     .calendar__item_day {
         font-size: 10px;
     }
-}
-
-* {
-    /* outline: 1px solid gray; */
 }

@@ -1,14 +1,6 @@
 /* Стилизация аккордеона */
-
-.container {
-    margin-bottom: 8px;
-}
-
-.container:last-child {
-    margin-bottom: 0;
-}
-
 .accordeon-item {
+    margin-top: 8px;
     border: var(--border-main);
     border-radius: 8px;
     width: 730px;
@@ -22,7 +14,10 @@
 }
 
 .accordeon-item__summary {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1em;
 }
 
 .accordeon-item__summary:focus {
@@ -38,22 +33,16 @@
     width: 650px;
 }
 
-
-/* тут застрял. не понимаю, почему:
-1 - при закрытом аккордеоне стрелка не отображается
-2 -  при pointer-events:none все равно не событие клика не пробрасывается на область аккордеона под маркером*/
-
-.marker {
+.accordeon-item__marker {
     display:inline-block;
-    position:absolute;
-    right:5%;
+    /* position:absolute;
+    right:5%; */
     width:18px;
     height:10px;
     pointer-events: none;
-    z-index: 1000;
     transform:rotate(-90deg);
 }
 
-.accordeon-item[open] .marker {
+.accordeon-item[open] .accordeon-item__marker {
     transform: rotate(0);
 }
