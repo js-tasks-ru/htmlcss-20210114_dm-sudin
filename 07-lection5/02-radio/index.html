@@ -4,8 +4,52 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <link rel="stylesheet" href="./custom.css">
     </head>
     <body>
+
+        <svg style="display: none;">
+            <defs>
+                <symbol id="checked" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1" y="1" width="26" height="26" rx="13" stroke="#4263EB" stroke-width="2"/>
+                <rect x="5" y="5" width="18" height="18" rx="9" fill="#4263EB"/>
+                </symbol>           
+            </defs>
+        </svg>
+
+        <label class="radio">
+            <input type="radio" name="group_1" class="radio__control">
+            <div class="radio__state">
+                <div class="radio__icon radio__icon_checked">
+                    <svg class="radio__icon">
+                        <use xlink:href="#checked"></use>
+                    </svg>
+                </div>
+            </div>
+            <p class="radio__text">Default</p>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="group_1" class="radio__control" checked>
+            <div class="radio__state">
+                    <svg class="radio__icon">
+                        <use xlink:href="#checked"></use>
+                    </svg>
+            </div>
+            <p class="radio__text">Selected</p>
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="group_1" class="radio__control" disabled>
+            <div class="radio__state">
+                <div class="radio__icon radio__icon_checked">
+                    <svg>
+                        <use xlink:href="#checked"></use>
+                    </svg>
+                </div>
+            </div>
+            <p class="radio__text">Disabled</p>
+        </label>
 
     </body>
 </html>

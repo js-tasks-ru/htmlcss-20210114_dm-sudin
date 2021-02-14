@@ -1,0 +1,7 @@
+.radio {
+    margin-bottom: 20px;
+}
+
+.radio:last-child {
+    margin-bottom: auto;
+}
