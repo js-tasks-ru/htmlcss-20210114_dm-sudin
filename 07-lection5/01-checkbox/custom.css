@@ -1,0 +1,7 @@
+.checkbox {
+    margin-bottom: 16px;
+}
+
+.checkbox:last-child {
+    margin-bottom: auto;
+}
