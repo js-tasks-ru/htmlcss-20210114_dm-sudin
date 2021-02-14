@@ -1,0 +1,7 @@
+.toggler {
+    margin-bottom: 16px;
+}
+
+.toggler:last-child {
+    margin-bottom: auto;
+}
