@@ -1,7 +1,8 @@
 .checkbox {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+.checkbox:last-child {
+  margin-bottom: auto;
 }
 
-.checkbox:last-child {
-    margin-bottom: auto;
-}
+/*# sourceMappingURL=custom.css.map */

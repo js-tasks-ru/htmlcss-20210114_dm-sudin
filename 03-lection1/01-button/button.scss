@@ -1,0 +1,63 @@
+/* Стилизация кнопки */
+
+@import "../../assets/css/variables.scss";
+
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    border-radius: 8px;
+    border:none;
+    width: 189px;
+    height: 48px;
+    color: $white;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: default;
+        opacity: 0.5;
+    }
+
+    &__primary {    
+        background: $accent;    
+        transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    
+        &:hover {
+            background: $primary-hover-bg;
+        }
+    }
+
+    &__secondary {
+        background: $secondary-active-bg;
+        transition: opacity 200ms ease-in-out, background 200ms ease-in-out;    
+    
+        &:hover {
+            background: $secondary-hover-bg;
+        }
+    }
+
+    &__alternate {
+        background:$white;
+        transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+        border: $border-main;
+        color: $text-main-color;
+    
+        &:hover {
+            border: $border-secondary;
+        }
+    
+        &:disabled {
+            border: $border-main;
+            color: $text-main-color;
+            opacity: 0.5;
+        }
+    }
+}
+
+
+
+

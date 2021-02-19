@@ -1,0 +1,53 @@
+@import "../../assets/css/variables.scss";
+.radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+    &__control {
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        pointer-events: none;
+        margin: 0;
+    }
+
+    &__control:checked ~ &__state {
+        border: none;
+    }
+
+    &__control:disabled ~ &__state {
+        background: $bg-secondary ;
+        cursor: not-allowed;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 28px;
+        height: 28px;
+        display: none;
+    }
+
+    &__control:checked ~ &__state &__icon {
+        display: inline-block;
+    }
+
+    &__state {
+        width: 28px;
+        height: 28px;
+        box-sizing: border-box;
+        border: $border-third;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $text-main-color;
+        margin-left: 12px;
+    }
+}

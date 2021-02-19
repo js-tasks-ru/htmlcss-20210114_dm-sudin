@@ -1,7 +1,8 @@
 .toggler {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+.toggler:last-child {
+  margin-bottom: auto;
 }
 
-.toggler:last-child {
-    margin-bottom: auto;
-}
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,39 @@
+    $white: #FFFFFF;
+    $black: #212429;    
+    $text-bold-color: $black;
+    $text-main-color: #495057;
+    $text-secondary-color: #DDE2E5;
+    $text-notification: #D84910;
+    $text-third-color: #ACB5BD;
+    $text-calendar-main: #334D6E;
+    $text-title-calendar-day:#90A0B7;
+
+    $bg-main: $white;
+    $bg-secondary: #DDE2E5;
+    $bg-third: #F9FAFC;
+    $bg-black-half-opacity:rgba(0, 0, 0, 0.5);
+    $bg-item-calendar: #a0b1f533;
+    $bg-toggler-marker: #D1D7DB;
+
+    $icon-error: #F03D3E;
+
+    $accent: #4263EB;
+    $accent-second: #374FC7;
+    $accent-text-1: $white;
+    $primary-active-bg: $accent;
+    $primary-active-text: $white;
+    $primary-hover-bg: #2342C0;
+    $secondary-active-bg: #7048E8;
+    $secondary-hover-bg: #5028C6;
+    $border-main: 1px solid #ACB5BD;
+    $border-secondary: 1px solid $black;
+    $border-third: 1px solid $bg-secondary;
+    $border-accent: 1px solid $accent;
+    $border-error: 1px solid $icon-error;
+    $gradient-1: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+   
+
+    $ultra-width: 2560px;
+    $desktop-width: 1024px;
+    $tablet-width: 768px;
+    $touch-width: 486px;

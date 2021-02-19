@@ -1,0 +1,65 @@
+@import "../../assets/css/variables.scss";
+
+
+.toggler {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+    &__control {
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        pointer-events: none;
+        margin: 0;
+
+        &:checked ~ .toggler__state {
+            border: 1px solid $accent;
+            background: $accent;
+            padding-right: 1px;
+            justify-content: flex-end;
+        }
+    
+        &:checked ~ .toggler__state .toggler__marker{
+            background: $white;
+        }
+    
+        &:disabled ~ .toggler__state {
+            background: $bg-secondary;
+        }
+    
+        &:disabled ~ .toggler__state .toggler__marker {
+            background: $bg-toggler-marker;
+        }
+    }
+
+    
+
+    &__state {
+        width: 52px;
+        height: 28px;
+        border: $border-third;
+        border-radius: 16px;
+        box-sizing: border-box;
+        padding-left: 1px;
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__marker {
+        width: 24px;
+        height: 24px;
+        background: $bg-secondary;
+        border-radius: 50%;
+    }
+
+    &__text {
+        color: $text-main-color;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}

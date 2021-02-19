@@ -1,0 +1,22 @@
+@import "../../assets/css/variables.scss";
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: $ultra-width) {
+        background-image: url("./public/forest_2560.jpg");
+    }
+
+    @media (max-width: $desktop-width) {
+        background-image: url("./public/forest_1024.jpg");
+    }
+
+    @media screen and (max-width: $tablet-width) {
+        background-image: url("./public/forest_768.jpg");
+    }
+
+    @media screen and (max-width: $touch-width) {
+        background-image: url("./public/forest_400.jpg");
+    }
+}

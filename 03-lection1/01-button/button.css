@@ -1,55 +1,49 @@
+@charset "UTF-8";
 /* Стилизация кнопки */
 .button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18.75px;
-    border-radius: 8px;
-    border:none;
-    width: 189px;
-    height: 48px;
-    color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  border-radius: 8px;
+  border: none;
+  width: 189px;
+  height: 48px;
+  color: #FFFFFF;
 }
-
 .button:hover {
-    cursor:pointer;
+  cursor: pointer;
 }
-
 .button:disabled {
-    cursor: default;
-    opacity: 0.5;
+  cursor: default;
+  opacity: 0.5;
+}
+.button__primary {
+  background: #4263EB;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__primary:hover {
+  background: #2342C0;
+}
+.button__secondary {
+  background: #7048E8;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__secondary:hover {
+  background: #5028C6;
+}
+.button__alternate {
+  background: #FFFFFF;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  border: 1px solid #ACB5BD;
+  color: #495057;
+}
+.button__alternate:hover {
+  border: 1px solid #212429;
+}
+.button__alternate:disabled {
+  border: 1px solid #ACB5BD;
+  color: #495057;
+  opacity: 0.5;
 }
 
-.button_primary {    
-    background: var(--accent);    
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button_primary:hover {
-    background: var(--primary-hover-bg);
-}
-
-.button_secondary {
-    background: var(--secondary-active-bg);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;    
-}
-
-.button_secondary:hover {
-    background: var(--secondary-hover-bg);
-}
-
-.button_alternate {
-    background:var(--white);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    border: var(--border-main);
-    color: var(--text-main-color);
-}
-
-.button_alternate:hover {
-    border: var(--border-secondary);
-}
-
-.button_alternate:disabled {
-    border: var(--border-main);
-    color: var(--text-main-color);
-    opacity: 0.5;
-}
+/*# sourceMappingURL=button.css.map */

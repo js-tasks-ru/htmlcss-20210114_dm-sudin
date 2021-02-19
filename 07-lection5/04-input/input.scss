@@ -1,0 +1,55 @@
+@import "../../assets/css/variables.scss";
+
+.input {
+    height: 56px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 25px;
+
+    &__empty {
+        border: $border-third;
+
+        &::placeholder {
+            color: $text-secondary-color;
+        }
+    }
+
+    &__icon {
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        position: absolute;
+
+        &_success {
+            color: $accent-second; 
+        }
+        
+        &_error {
+            color: $icon-error;
+        }
+    }
+    
+    &__focus {
+        border: $border-accent;
+        color: $text-main-color;
+    }
+    
+    &__success {
+        border: $border-third;
+    }
+    
+    &__error {
+        border: $border-error;
+    }
+}
+
+.label {
+    display: block;
+    position: relative;
+    width: fit-content;
+}

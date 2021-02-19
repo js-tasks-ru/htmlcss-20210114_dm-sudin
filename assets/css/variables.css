@@ -1,34 +1,3 @@
-:root {
-    --white: #FFFFFF;
-    --black: #212429;    
-    --text-bold-color: var(--black);
-    --text-main-color: #495057;
-    --text-secondary-color: #DDE2E5;
-    --text-notification: #D84910;
-    --text-third-color: #ACB5BD;
-    --text-calendar-main: #334D6E;
 
-    --bg-main: var(--white);
-    --bg-secondary: #DDE2E5;
-    --bg-third: #F9FAFC;
-    --bg-black-half-opacity:rgba(0, 0, 0, 0.5);
-    --bg-item-calendar: #a0b1f533;
-    --bg-toggler-marker: #D1D7DB;
 
-    --accent: #4263EB;
-    --accent-text-1: var(--white);
-    --primary-active-bg: var(--accent);
-    --primary-active-text: var(--white);
-    --primary-hover-bg: #2342C0;
-    --secondary-active-bg: #7048E8;
-    --secondary-hover-bg: #5028C6;
-    --border-main: 1px solid #ACB5BD;
-    --border-secondary: 1px solid var(--black);
-    --border-third: 1px solid var(--bg-secondary);
-    --gradient-1: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    
-
-    --desktop-width: 1024px;
-    --tablet-width: 786px;
-    --touch-width: 468px;
-}
+/*# sourceMappingURL=variables.css.map */
