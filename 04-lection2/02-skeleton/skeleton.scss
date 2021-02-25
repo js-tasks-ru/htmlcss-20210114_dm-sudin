@@ -1,0 +1,57 @@
+.skeleton {
+        background-color: var(--bg-main);
+        border: var(--border-main);
+        border-radius: 8px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    &__head {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__icon {
+        margin-right:16px;
+        background: var(--bg-secondary);
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 25%;   
+    }
+
+    &__description-line1, &__description-line2 {
+        height: 41%;
+        background: var(--gradient-1);
+    }
+
+    &__post-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+    &__info-details {
+        width: 257px;
+        height: 20px;
+        background: var(--gradient-1);
+    }
+
+    &__info-name {
+        width: 172px;
+        height: 20px;
+        background: var(--gradient-1);
+    }
+
+}
+

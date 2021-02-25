@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+@import "../../assets/css/variables.scss";
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dropdown {
+    position: relative;
+
+    &__anchor {
+    color: $black;
+    width: 24px;
+    height: 24px;
+    }
+
+    &__menu {
+        display: none;
+        position: absolute;
+        left:50%;
+        top: -9px;
+        left:50%;
+        transform: translate(-50%, -100%);
+        width: 120px;
+        height: 80px;
+        border-radius: 10px;
+        background: $accent;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top:100%;
+                left: 50%;    
+                border: 14px solid transparent;    
+                border-top: 16px solid $accent;
+                transform: translate(-50%, -9px);
+            }
+
+    }
+
+    &__text {
+        color: $text-secondary-color;
+        text-align: center;
+    }
+
+    &:hover &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -4,8 +4,33 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
+        <link rel="stylesheet" href="./custom.css">
     </head>
     <body>
+
+        <label class="toggler">
+            <input type="checkbox" class="toggler__control">
+            <div class="toggler__state">
+                <div class="toggler__marker"></div>
+            </div>
+            <p class="toggler__text">Off</p>
+        </label>
+
+        <label class="toggler">
+            <input type="checkbox" class="toggler__control" checked>
+            <div class="toggler__state">
+                <div class="toggler__marker"></div>
+            </div>
+            <p class="toggler__text">On</p>
+        </label>
+
+        <label class="toggler">
+            <input type="checkbox" class="toggler__control" disabled>
+            <div class="toggler__state">
+                <div class="toggler__marker"></div>
+            </div>
+            <p class="toggler__text">Disabled</p>
+        </label>
 
     </body>
 </html>

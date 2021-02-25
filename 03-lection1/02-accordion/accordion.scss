@@ -1,0 +1,59 @@
+/* Стилизация аккордеона */
+
+@import "../../assets/css/variables.scss";
+
+.accordeon-item {
+    margin-top: 8px;
+    border: $border-main;
+    border-radius: 8px;
+    width: 730px;
+    background-color:$bg-main;
+    color: $text-main-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 24px 0 24px 32px;
+    position:relative;
+
+    &__text{
+    padding-top: 16px;
+    width: 650px;
+    }
+
+    &__marker {
+    display:inline-block;
+    width:18px;
+    height:10px;
+    pointer-events: none;
+    transform:rotate(-90deg);
+    }
+
+    &[open] &__marker {
+    transform: rotate(0);
+    }
+
+
+    &__summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1em;
+
+            &:focus {
+                    outline: none;
+            }
+
+            &::-webkit-details-marker {
+                display: none;
+            }
+
+    }
+}
+
+
+
+
+
+
+
+

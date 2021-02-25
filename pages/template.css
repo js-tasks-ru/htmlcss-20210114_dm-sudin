@@ -1,0 +1,137 @@
+body {
+    margin:0;
+    height:100vh;
+}
+
+.page {
+    height:100%;    
+    background: var(--bg-third);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap:36px;
+    grid-template-areas:  "header"
+                          "main" 
+                          "footer";
+}
+
+@media screen and (min-width: 768px) {
+    .page {
+        padding-top: 82px;
+    }
+}
+
+.page__header {
+    height: 82px;
+    background: var(--white);
+    grid-area: header;
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.page__logo {
+    width: 110px;
+    height:32px; 
+    color: var(--black);
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    width:100%;
+    max-width: 1110px;
+    justify-self: center;
+    background: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .page__main {
+        grid-template-columns: auto;
+    }
+}
+
+.menu {
+    width:229px;
+    background: inherit;
+    margin-left: 165px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+.menu__title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.menu__item {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.menu__item:last-child {
+    margin-top: 30px;
+}
+
+.menu__item_active {
+    color: var(--text-notification);
+}
+
+
+.component {
+    background: var(--white);    
+    border-radius: 12px;
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 300px;
+}
+
+@media screen and (max-width:768px) {
+    .component {
+        max-width: 80%;
+    }
+}
+
+.component__title {
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--text-main-color);
+    margin-bottom: 24px;
+}
+
+.page__footer {
+    height: 130px;
+    grid-area: footer;
+    background: inherit;    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-third-color);
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .page__footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

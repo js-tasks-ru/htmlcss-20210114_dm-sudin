@@ -1,0 +1,77 @@
+.calendar {
+  margin: auto;
+  padding: 28px 36px;
+  border: 1px solid #ACB5BD;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.calendar-component {
+  max-width: 350px;
+}
+.calendar__wrapper {
+  padding: 25px;
+  padding-bottom: 100%;
+  position: relative;
+}
+.calendar__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calendar__title {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334D6E;
+  font-weight: 600;
+}
+.calendar__item {
+  text-align: center;
+  font-size: 16px;
+  color: #334D6E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar__item_accent {
+  background: #4263EB;
+}
+.calendar__item_between {
+  background: #a0b1f533;
+}
+.calendar__item_day {
+  font-size: 14px;
+  line-height: 20px;
+  color: #90A0B7;
+}
+
+@media all and (max-width: 486px) {
+  .calendar__title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .calendar__item_day {
+    font-size: 10px;
+  }
+
+  .calendar__item {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 768px) {
+  .calendar {
+    border: none;
+  }
+}
+@media all and (max-width: 1024px) {
+  .calendar {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=calendar.css.map */

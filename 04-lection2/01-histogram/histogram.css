@@ -1,63 +1,55 @@
 .histogram {
-    width: 100%;
-    height: 185px;
-    background-color: var(--bg-main);
-    border: var(--border-main);
-    border-radius: 8px;
-    padding: 19px 24px 24px 24px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 100%;
+  height: 185px;
+  background-color: var(--bg-main);
+  border: var(--border-main);
+  border-radius: 8px;
+  padding: 19px 24px 24px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .histogram__total {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .histogram__info {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 .histogram__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
 }
-
-.histogram__col{    
-    flex-grow: 1;
-    border-right: 1px solid white;
-    background-color: var(--accent);
+.histogram__col {
+  flex-grow: 1;
+  border-right: 1px solid white;
+  background-color: var(--accent);
 }
-
-.histogram__col:last-child { 
-    border-right: none; 
+.histogram__col:last-child {
+  border-right: none;
 }
-
 .histogram__total-title {
-    color: var(--text-bold-color);
-    opacity: 0.8;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 8px;
+  color: var(--text-bold-color);
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
 }
-
 .histogram__total-value {
-    color: var(--text-bold-color);
-    font-size: 20px;
-    line-height: 26px;
+  color: var(--text-bold-color);
+  font-size: 20px;
+  line-height: 26px;
 }
-
 .histogram__link {
-    color: var(--accent);
-    display: block;
-    text-decoration: none;
+  color: var(--accent);
+  display: block;
+  text-decoration: none;
 }
 
+/*# sourceMappingURL=histogram.css.map */
